@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Quiz
+//  WorldTrotter
 //
 //  Created by Eric Liu on 6/11/18.
 //  Copyright © 2018 Eric Liu. All rights reserved.
