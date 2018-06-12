@@ -8,11 +8,28 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ConversionViewController: UIViewController {
 
+    @IBOutlet weak var celsiusLabel: UITextField!
+    @IBOutlet weak var textField: UITextField!
+    
+    @IBAction func fahrenheitFieldEditingChanged(_ sender: UITextField) {
+        if let text = sender.text, !text.isEmpty {
+            celsiusLabel.text = sender.text
+        } else {
+            celsiusLabel.text = "???"
+        }
+        
+        
+    }
+    
+    @IBAction func dismissKeyboard(_ sender: UITapGestureRecognizer) {
+        textField.resignFirstResponder()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        let firstFrame = CGRect(x: 100, y: 100, width: 200, height: 200)
+        let firstFrame = CGRect(x: 500, y: 100, width: 200, height: 200)
         let firstView = UIView(frame: firstFrame)
         firstView.backgroundColor = UIColor.blue
         view.addSubview(firstView)
