@@ -29,7 +29,7 @@ class ConversionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        let firstFrame = CGRect(x: 500, y: 100, width: 200, height: 200)
+        let firstFrame = CGRect(x: 100, y: 200, width: 200, height: 200)
         let firstView = UIView(frame: firstFrame)
         firstView.backgroundColor = UIColor.blue
         view.addSubview(firstView)
