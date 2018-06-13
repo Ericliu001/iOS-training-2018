@@ -67,10 +67,10 @@
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HNA-qF-gwz">
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="HNA-qF-gwz">
                                             <rect key="frame" x="16" y="40" width="42" height="20.5"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hT6-US-ji3">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hT6-US-ji3">
                                                     <rect key="frame" x="0.0" y="0.0" width="42" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
@@ -81,8 +81,10 @@
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="6Vn-1Z-qDL" firstAttribute="leading" secondItem="h2Z-Tf-Rxg" secondAttribute="leadingMargin" id="9Xh-R9-xyL"/>
+                                        <constraint firstItem="hT6-US-ji3" firstAttribute="leading" secondItem="6Vn-1Z-qDL" secondAttribute="leading" id="Cae-dr-a9p"/>
                                         <constraint firstItem="6Vn-1Z-qDL" firstAttribute="top" secondItem="h2Z-Tf-Rxg" secondAttribute="topMargin" id="DAX-Uo-F28"/>
                                         <constraint firstAttribute="bottom" secondItem="HNA-qF-gwz" secondAttribute="bottom" constant="4" id="ZbK-TF-acZ"/>
+                                        <constraint firstItem="hT6-US-ji3" firstAttribute="top" secondItem="6Vn-1Z-qDL" secondAttribute="bottom" constant="8.5" id="jS9-Vb-qrC"/>
                                         <constraint firstItem="sqS-4v-yM2" firstAttribute="trailing" secondItem="h2Z-Tf-Rxg" secondAttribute="trailingMargin" id="m2y-ex-LV6"/>
                                         <constraint firstItem="sqS-4v-yM2" firstAttribute="centerY" secondItem="h2Z-Tf-Rxg" secondAttribute="centerY" id="zie-Qx-UTC"/>
                                     </constraints>
