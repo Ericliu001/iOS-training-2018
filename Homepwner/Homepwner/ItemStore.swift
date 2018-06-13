@@ -31,4 +31,12 @@ class ItemStore {
         allItems.append(item)
         return item
     }
+    
+    func saveChanges () -> Bool {
+        print("Saving items to: \(itemArchiveURL.path)")
+        
+        return NSKeyedArchiver.archiveRootObject(allItems, toFile: itemArchiveURL.path)
+    }
+    
+    
 }
