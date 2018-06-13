@@ -28,6 +28,8 @@ class ConversionViewController: UIViewController {
     }
     
     override func viewDidLoad() {
+        print("ConversionViewController loaded its view.")
+        
         super.viewDidLoad()
         let firstFrame = CGRect(x: 100, y: 200, width: 200, height: 200)
         let firstView = UIView(frame: firstFrame)
