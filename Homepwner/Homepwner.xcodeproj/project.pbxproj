@@ -105,10 +105,10 @@
 				42C71FF020D0EB7B0067E935 /* ItemsViewController.swift */,
 				42C71FC620D0EAAA0067E935 /* Main.storyboard */,
 				42C71FC920D0EAAB0067E935 /* Assets.xcassets */,
-				42C71FCB20D0EAAB0067E935 /* LaunchScreen.storyboard */,
 				42C71FCE20D0EAAB0067E935 /* Info.plist */,
 				42C71FF220D0EC9A0067E935 /* Item.swift */,
 				42C71FF420D0F0650067E935 /* ItemStore.swift */,
+				42C71FCB20D0EAAB0067E935 /* LaunchScreen.storyboard */,
 			);
 			path = Homepwner;
 			sourceTree = "<group>";

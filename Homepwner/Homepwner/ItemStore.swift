@@ -11,6 +11,12 @@ import UIKit
 class ItemStore {
     var allItems: Array<Item> = []
     
+    init(count: Int) {
+        for _ in 0..<count {
+            createItem()
+        }
+    }
+    
     
     @discardableResult func createItem () -> Item {
         let item = Item(random: true)
