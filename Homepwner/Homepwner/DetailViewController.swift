@@ -15,6 +15,20 @@ class DetailViewController: UIViewController {
     @IBOutlet weak var valueField: UITextField!
     @IBOutlet weak var dateLabel: UILabel!
     
+    var item: Item!
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        nameField.text = item.name
+        serialNumberField.text = item.serialNumber
+        valueField.text = "\(item.valueInDollars)"
+        dateLabel.text = "\(item.dateCreated)"
+    }
     
-    
+    override func viewWillDisappear(_ animated: Bool) {
+        item.name = nameField.text ?? ""
+        item.serialNumber = serialNumberField.text
+        
+       
+        item.valueInDollars = Int(valueField.text!) ?? 0
+    }
 }

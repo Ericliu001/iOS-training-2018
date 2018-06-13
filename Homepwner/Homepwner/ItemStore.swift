@@ -10,6 +10,13 @@ import UIKit
 
 class ItemStore {
     var allItems: Array<Item> = []
+    let itemArchiveURL: URL = {
+        let documentsDirectories =
+        FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
+        
+        let documentDirectory = documentsDirectories.first!
+        return documentDirectory.appendingPathComponent("items.archive")
+    }()
     
     init(count: Int) {
         for _ in 0..<count {
