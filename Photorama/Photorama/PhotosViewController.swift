@@ -17,7 +17,14 @@ class PhotosViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        photoStore.fetchInterestingPhotos()
+        photoStore.fetchInterestingPhotos { (photosResult) -> Void in
+            switch photosResult {
+            case let .success(photos):
+                print("Successfully found \(photos.count) photos.")
+            case let .failure(error):
+                print("Error fetching interesting photos: \(error)")
+            }
+        }
     }
 
     override func didReceiveMemoryWarning() {
