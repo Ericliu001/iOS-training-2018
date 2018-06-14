@@ -19,8 +19,12 @@ class ItemStore {
     }()
     
     init(count: Int) {
-        for _ in 0..<count {
-            createItem()
+        if let archivedItems = NSKeyedUnarchiver.unarchiveObject(withFile: itemArchiveURL.path) as? [Item] {
+            allItems = archivedItems
+        } else {
+            for _ in 0..<count {
+                createItem()
+            }
         }
     }
     

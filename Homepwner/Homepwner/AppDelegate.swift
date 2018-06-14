@@ -12,11 +12,12 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    let itemStore = ItemStore(count:3)
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        let itemStore = ItemStore(count:10)
+        
         
         let navigationController = window!.rootViewController as! UINavigationController
         let itemsViewController: ItemsViewController = navigationController.topViewController as! ItemsViewController
@@ -32,6 +33,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationDidEnterBackground(_ application: UIApplication) {
         // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
         // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+        
+        let success = itemStore.saveChanges()
+        
+        if success {
+            print("Saved all items!")
+        } else {
+            print("Could not save any items.")
+        }
     }
 
     func applicationWillEnterForeground(_ application: UIApplication) {
