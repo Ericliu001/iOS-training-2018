@@ -1,2 +1,2 @@
 # iOS-training-2018
-The nerd big ranch iOS bootcamp 
+The big nerd ranch iOS bootcamp 
