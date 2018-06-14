@@ -6,7 +6,7 @@
 //  Copyright © 2018 Eric Liu. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 
 enum PhotosResult {
@@ -18,6 +18,8 @@ enum ImageResult {
     case success(UIImage)
     case failure(Error)
 }
+
+
 enum PhotoError: Error {
     case imageCreationError
 }
@@ -28,7 +30,7 @@ class PhotoStore {
         let config = URLSessionConfiguration.default
         return URLSession(configuration: config)
     }()
-    
+
     func fetchInterestingPhotos(completion: @escaping (PhotosResult) -> Void) {
         let url = FlickrAPI.interestingPhotosURL
         let request = URLRequest(url: url)
