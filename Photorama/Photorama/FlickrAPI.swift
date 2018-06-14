@@ -68,12 +68,23 @@ struct FlickrAPI {
             let jsonDictionary = jsonObject as? [AnyHashable: Any],
             let photos = jsonDictionary["photos"] as? [String: Any],
             let photosArray = photos["photo"] as? [[String:Any]]
-                
             else {
                 return .failure(FlickrError.invalidJSONData)
             }
             
             var finalPhotos = [Photo]()
+            for photoJson in photosArray {
+                if let photo = photo(fromJSON: photoJson) {
+                    finalPhotos.append(photo)
+                }
+            }
+            
+            if finalPhotos.isEmpty && !photosArray.isEmpty {
+                // We weren't able to parse any of the photos
+                // Maybe the JSON format for photos has changed
+                return .failure(FlickrError.invalidJSONData)
+            }
+            
             return .success(finalPhotos)
             
         } catch let error {
@@ -91,7 +102,7 @@ struct FlickrAPI {
             let dateTaken = dateFormatter.date(from: dateString) else {
                 // Don't have enough information to construct a Photo
                 return nil }
-        return Photo(title: title, photoID: photoID, remoteURL: url, dateTaken: dateTaken)
+        return Photo(title: title, remoteURL: url, photoID: photoID, dateTaken: dateTaken)
     }
 }
 
