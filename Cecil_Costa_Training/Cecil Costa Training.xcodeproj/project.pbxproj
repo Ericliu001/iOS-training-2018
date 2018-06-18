@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42CB3DFE20D7383700FCC5CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB3DFD20D7383700FCC5CD /* AppDelegate.swift */; };
+		42CB3E0020D7383700FCC5CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB3DFF20D7383700FCC5CD /* ViewController.swift */; };
+		42CB3E0320D7383700FCC5CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB3E0120D7383700FCC5CD /* Main.storyboard */; };
+		42CB3E0520D7383800FCC5CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CB3E0420D7383800FCC5CD /* Assets.xcassets */; };
+		42CB3E0820D7383800FCC5CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB3E0620D7383800FCC5CD /* LaunchScreen.storyboard */; };
+		42CB3E1320D7383800FCC5CD /* Cecil_Costa_TrainingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB3E1220D7383800FCC5CD /* Cecil_Costa_TrainingTests.swift */; };
+		42CB3E1E20D7383800FCC5CD /* Cecil_Costa_TrainingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB3E1D20D7383800FCC5CD /* Cecil_Costa_TrainingUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42CB3E0F20D7383800FCC5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CB3DF220D7383700FCC5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CB3DF920D7383700FCC5CD;
+			remoteInfo = "Cecil Costa Training";
+		};
+		42CB3E1A20D7383800FCC5CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42CB3DF220D7383700FCC5CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42CB3DF920D7383700FCC5CD;
+			remoteInfo = "Cecil Costa Training";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42CB3DFA20D7383700FCC5CD /* Cecil Costa Training.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cecil Costa Training.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CB3DFD20D7383700FCC5CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42CB3DFF20D7383700FCC5CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42CB3E0220D7383700FCC5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42CB3E0420D7383800FCC5CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42CB3E0720D7383800FCC5CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42CB3E0920D7383800FCC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CB3E0E20D7383800FCC5CD /* Cecil Costa TrainingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cecil Costa TrainingTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CB3E1220D7383800FCC5CD /* Cecil_Costa_TrainingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cecil_Costa_TrainingTests.swift; sourceTree = "<group>"; };
+		42CB3E1420D7383800FCC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CB3E1920D7383800FCC5CD /* Cecil Costa TrainingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cecil Costa TrainingUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42CB3E1D20D7383800FCC5CD /* Cecil_Costa_TrainingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cecil_Costa_TrainingUITests.swift; sourceTree = "<group>"; };
+		42CB3E1F20D7383800FCC5CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42CB3DF720D7383700FCC5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CB3E0B20D7383800FCC5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CB3E1620D7383800FCC5CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42CB3DF120D7383700FCC5CD = {
+			isa = PBXGroup;
+			children = (
+				42CB3DFC20D7383700FCC5CD /* Cecil Costa Training */,
+				42CB3E1120D7383800FCC5CD /* Cecil Costa TrainingTests */,
+				42CB3E1C20D7383800FCC5CD /* Cecil Costa TrainingUITests */,
+				42CB3DFB20D7383700FCC5CD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42CB3DFB20D7383700FCC5CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42CB3DFA20D7383700FCC5CD /* Cecil Costa Training.app */,
+				42CB3E0E20D7383800FCC5CD /* Cecil Costa TrainingTests.xctest */,
+				42CB3E1920D7383800FCC5CD /* Cecil Costa TrainingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42CB3DFC20D7383700FCC5CD /* Cecil Costa Training */ = {
+			isa = PBXGroup;
+			children = (
+				42CB3DFD20D7383700FCC5CD /* AppDelegate.swift */,
+				42CB3DFF20D7383700FCC5CD /* ViewController.swift */,
+				42CB3E0120D7383700FCC5CD /* Main.storyboard */,
+				42CB3E0420D7383800FCC5CD /* Assets.xcassets */,
+				42CB3E0620D7383800FCC5CD /* LaunchScreen.storyboard */,
+				42CB3E0920D7383800FCC5CD /* Info.plist */,
+			);
+			path = "Cecil Costa Training";
+			sourceTree = "<group>";
+		};
+		42CB3E1120D7383800FCC5CD /* Cecil Costa TrainingTests */ = {
+			isa = PBXGroup;
+			children = (
+				42CB3E1220D7383800FCC5CD /* Cecil_Costa_TrainingTests.swift */,
+				42CB3E1420D7383800FCC5CD /* Info.plist */,
+			);
+			path = "Cecil Costa TrainingTests";
+			sourceTree = "<group>";
+		};
+		42CB3E1C20D7383800FCC5CD /* Cecil Costa TrainingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42CB3E1D20D7383800FCC5CD /* Cecil_Costa_TrainingUITests.swift */,
+				42CB3E1F20D7383800FCC5CD /* Info.plist */,
+			);
+			path = "Cecil Costa TrainingUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42CB3DF920D7383700FCC5CD /* Cecil Costa Training */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CB3E2220D7383800FCC5CD /* Build configuration list for PBXNativeTarget "Cecil Costa Training" */;
+			buildPhases = (
+				42CB3DF620D7383700FCC5CD /* Sources */,
+				42CB3DF720D7383700FCC5CD /* Frameworks */,
+				42CB3DF820D7383700FCC5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cecil Costa Training";
+			productName = "Cecil Costa Training";
+			productReference = 42CB3DFA20D7383700FCC5CD /* Cecil Costa Training.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42CB3E0D20D7383800FCC5CD /* Cecil Costa TrainingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CB3E2520D7383800FCC5CD /* Build configuration list for PBXNativeTarget "Cecil Costa TrainingTests" */;
+			buildPhases = (
+				42CB3E0A20D7383800FCC5CD /* Sources */,
+				42CB3E0B20D7383800FCC5CD /* Frameworks */,
+				42CB3E0C20D7383800FCC5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CB3E1020D7383800FCC5CD /* PBXTargetDependency */,
+			);
+			name = "Cecil Costa TrainingTests";
+			productName = "Cecil Costa TrainingTests";
+			productReference = 42CB3E0E20D7383800FCC5CD /* Cecil Costa TrainingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42CB3E1820D7383800FCC5CD /* Cecil Costa TrainingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42CB3E2820D7383800FCC5CD /* Build configuration list for PBXNativeTarget "Cecil Costa TrainingUITests" */;
+			buildPhases = (
+				42CB3E1520D7383800FCC5CD /* Sources */,
+				42CB3E1620D7383800FCC5CD /* Frameworks */,
+				42CB3E1720D7383800FCC5CD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42CB3E1B20D7383800FCC5CD /* PBXTargetDependency */,
+			);
+			name = "Cecil Costa TrainingUITests";
+			productName = "Cecil Costa TrainingUITests";
+			productReference = 42CB3E1920D7383800FCC5CD /* Cecil Costa TrainingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42CB3DF220D7383700FCC5CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Eric Liu";
+				TargetAttributes = {
+					42CB3DF920D7383700FCC5CD = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					42CB3E0D20D7383800FCC5CD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 42CB3DF920D7383700FCC5CD;
+					};
+					42CB3E1820D7383800FCC5CD = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 42CB3DF920D7383700FCC5CD;
+					};
+				};
+			};
+			buildConfigurationList = 42CB3DF520D7383700FCC5CD /* Build configuration list for PBXProject "Cecil Costa Training" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42CB3DF120D7383700FCC5CD;
+			productRefGroup = 42CB3DFB20D7383700FCC5CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42CB3DF920D7383700FCC5CD /* Cecil Costa Training */,
+				42CB3E0D20D7383800FCC5CD /* Cecil Costa TrainingTests */,
+				42CB3E1820D7383800FCC5CD /* Cecil Costa TrainingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42CB3DF820D7383700FCC5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CB3E0820D7383800FCC5CD /* LaunchScreen.storyboard in Resources */,
+				42CB3E0520D7383800FCC5CD /* Assets.xcassets in Resources */,
+				42CB3E0320D7383700FCC5CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CB3E0C20D7383800FCC5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CB3E1720D7383800FCC5CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42CB3DF620D7383700FCC5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CB3E0020D7383700FCC5CD /* ViewController.swift in Sources */,
+				42CB3DFE20D7383700FCC5CD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CB3E0A20D7383800FCC5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CB3E1320D7383800FCC5CD /* Cecil_Costa_TrainingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42CB3E1520D7383800FCC5CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42CB3E1E20D7383800FCC5CD /* Cecil_Costa_TrainingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42CB3E1020D7383800FCC5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CB3DF920D7383700FCC5CD /* Cecil Costa Training */;
+			targetProxy = 42CB3E0F20D7383800FCC5CD /* PBXContainerItemProxy */;
+		};
+		42CB3E1B20D7383800FCC5CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42CB3DF920D7383700FCC5CD /* Cecil Costa Training */;
+			targetProxy = 42CB3E1A20D7383800FCC5CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42CB3E0120D7383700FCC5CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CB3E0220D7383700FCC5CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42CB3E0620D7383800FCC5CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42CB3E0720D7383800FCC5CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42CB3E2020D7383800FCC5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42CB3E2120D7383800FCC5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42CB3E2320D7383800FCC5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cecil Costa Training/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericliu.Cecil-Costa-Training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42CB3E2420D7383800FCC5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cecil Costa Training/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericliu.Cecil-Costa-Training";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42CB3E2620D7383800FCC5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cecil Costa TrainingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericliu.Cecil-Costa-TrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cecil Costa Training.app/Cecil Costa Training";
+			};
+			name = Debug;
+		};
+		42CB3E2720D7383800FCC5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cecil Costa TrainingTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericliu.Cecil-Costa-TrainingTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cecil Costa Training.app/Cecil Costa Training";
+			};
+			name = Release;
+		};
+		42CB3E2920D7383800FCC5CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cecil Costa TrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericliu.Cecil-Costa-TrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cecil Costa Training";
+			};
+			name = Debug;
+		};
+		42CB3E2A20D7383800FCC5CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Cecil Costa TrainingUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ericliu.Cecil-Costa-TrainingUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Cecil Costa Training";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42CB3DF520D7383700FCC5CD /* Build configuration list for PBXProject "Cecil Costa Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CB3E2020D7383800FCC5CD /* Debug */,
+				42CB3E2120D7383800FCC5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CB3E2220D7383800FCC5CD /* Build configuration list for PBXNativeTarget "Cecil Costa Training" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CB3E2320D7383800FCC5CD /* Debug */,
+				42CB3E2420D7383800FCC5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CB3E2520D7383800FCC5CD /* Build configuration list for PBXNativeTarget "Cecil Costa TrainingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CB3E2620D7383800FCC5CD /* Debug */,
+				42CB3E2720D7383800FCC5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42CB3E2820D7383800FCC5CD /* Build configuration list for PBXNativeTarget "Cecil Costa TrainingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42CB3E2920D7383800FCC5CD /* Debug */,
+				42CB3E2A20D7383800FCC5CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42CB3DF220D7383700FCC5CD /* Project object */;
+}
